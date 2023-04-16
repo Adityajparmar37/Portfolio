@@ -59,10 +59,12 @@ header nav {
 }
 
 header nav .branding{
-
     margin-right: 3rem ;
 }
 
+header nav .logo1{
+    height: 5rem;
+}
 .hero .left img{
 
     width: 400px;
@@ -135,5 +137,29 @@ section.about .social a{
     justify-content:center;
     width:35px;
     height:35px;
+}
+
+section.about .social a:hover{
+    background-color: var(--primary);
+}
+
+section.about .social a .github_logo{
+    width: 2.6rem;
+    height: 2.6rem;
     border-radius: 50%;
+}
+
+section.about .social a .insta_logo{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    margin-left: 3rem;
+}
+
+
+section.about .social a .linkedin_logo{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-left: 6rem;
 }
